@@ -1,0 +1,1 @@
+import {Suspense} from "react";import {ProductsPage} from "@/components/management";export default function Products(){return <Suspense fallback={<section className="card empty-state">Loading products…</section>}><ProductsPage/></Suspense>}
